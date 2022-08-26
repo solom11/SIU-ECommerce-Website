@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+header{
+    /*background: radial-gradient(#fff, #91d6f3);*/
+    max-height: fit-content;
+}
+
+main{
+    display: flex;
+}
+
+.featured{
+    display: flex;
+    flex-direction: row;
+    color: #555;
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.randomtxt{
+
+   text-align: center;
+    color: #555555;
+    font-weight: lighter;
+    margin-top: 50px;
+    align-content: center;
+
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+.rm{
+margin-right: 200px;
+}
+
+.manutd{
+
+margin-right: 200px;
+}
+
+footer{
+    background: #000;
+    color: #8a8a8a;
+    display: flex;
+    margin-top: 50px;
+}
+
+.shittext{
+    width: 500px;
+    font-size: smaller;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.social{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.menuagain{
+    margin-left: auto;
+
+}
+.follow{
+
+    margin-bottom: 10px;
+
+}
+
+section ul {
+    padding: 15px;
+}
+
+.beforemain{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.quote{
+    /*display: flex;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+
+}
+
+.ico{
+    font-size: xx-large;
+
+}
+
+.beforesale{
+    text-decoration: line-through;
+    margin-right: 100px;
+    font-size: x-large;
+}
+
+.aftersale{
+    font-size: x-large;
+}
+
+.prices{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.sale{
+    display: flex;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.latest{
+    display: flex;
+}
+
+.buynow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+    background: #f81600;
+    color: white;
+    border-style: none;
+}
+
+.btn:hover{
+    color: #eadf11;
+}
+
+.beforecat{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.categ{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.firstrow{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.secondrow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first{
+    margin-right: 100px;
+}
+
+.second{
+    margin-right: 100px;
+}
+
+.fourth{
+   margin-right: 100px;
+}
+.fifth{
+    margin-left: 100px;
+}
+
+.catname{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.category{
+    margin-bottom: 50px;
+}
+
+.smallerbtn {
+    width: 70px;
+    border-radius: 10px;
+    background: #f81600;
+    color: white;
+    border-style: none;
+}
+
+.smallerbtn:hover{
+    color: #eadf11;
+}
+
+.contctdet{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.textbox{
+    width: 300px
+}
+
+.large{
+    height: 300px;
+}
+
+.formitem{
+    font-weight: lighter;
+}
+
+.regularbtn{
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    margin-left: 50px;
+    border-style: none;
+    background: black;
+    color: white;
+}
+
+.map{
+    margin-left: 100px;
+
+    margin-top: 100px;
+}
+
+.regularbtn:hover{
+    color: rgba(27, 73, 150, 0.89);
+}
+
+.avatar{
+    margin-left: 30px;
+}
+
+.firstinf{
+    display: flex;
+}
+
+.personal{
+    margin-top: 100px;
+    margin-right: 100px;
+    font-size: larger;
+
+}
+
+.name{
+    margin-bottom: 25px;
+}
+
+.email{
+    margin-bottom: 25px;
+}
+.num{
+    margin-bottom: 25px;
+}
+
+.horline{
+    margin-top: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border: thin solid black;
+}
+
+.pass{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.texts{
+
+    display: flex;
+    flex-direction: column;
+}
+.txtbox{
+    width: 300px;
+    size: auto;
+
+
+}
+
+.password{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-size: larger;
+
+}
+
+.update{
+    float: right;
+    margin-right: 200px;
+
+}
+
+.firsttable{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.firsttable td{
+    text-align: center;
+}
+
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+
+}
+
+.randomtxttwo{
+
+    text-align: center;
+    color: #555555;
+    font-weight: lighter;
+    margin-top: 20px;
+    align-content: center;
+
+}
+
